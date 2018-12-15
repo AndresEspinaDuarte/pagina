@@ -1,0 +1,100 @@
+.text-azul {
+  color: #0159A3 !important;
+}
+
+.btn-azul {
+  background-color: #0159A3;
+  color: white;
+}
+
+.btn-azul:hover {
+  background-color: #0159A3;
+  color: white;
+}
+
+#header img {
+  width: 60px;
+}
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#place-time {
+  background-color: #343a40;
+  color: white;
+}
+
+#place-time img {
+  max-width: 100%;
+}
+
+#footer a {
+  color: white;
+}
+
+#header {
+  background-color: #A3191C;
+}
+
+#place-time {
+  background-color: #0159A3; 
+}
+
+#footer {
+  background-color: #A3191C;
+  color: white;
+}
+
+.card:hover{
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  bottom: 11px;
+}
+
+.white {
+  color: white;
+}
+
+.heightauto {
+  height: 177px;
+  max-width: 100%;
+  background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.heightauto2 {
+  height: auto;
+  max-width: 100%;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
+
+th {
+  background: rgba(1,89,163,.777);
+  color: white;
+}
